@@ -1,0 +1,10 @@
+.idea/*
+!.idea/dictionaries/
+!.idea/dictionaries/zhaihao.xml
+!.idea/copyright/
+!.idea/copyright/1.xml
+target
+.bsp
+logs
+.DS_Store
+test.sc

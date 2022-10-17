@@ -1,0 +1,19 @@
+POST {{url}}/dim/device/query
+Content-Type: application/json
+Accept: application/json
+Authorization: {{token}}
+
+{
+  "rules": {
+    "id": {
+      "op": ">",
+      "value": 10
+    }
+  },
+  "pageSize": 100,
+  "pageNum": 1,
+  "sort": [
+    "serial_number"
+  ],
+  "order": "asc"
+}

@@ -1,0 +1,3 @@
+
+# template
+GET           /api/v1/hello          $package$.controller.HelloController.hello
